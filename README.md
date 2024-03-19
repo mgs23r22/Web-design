@@ -1,5 +1,5 @@
-## Web-design
-### Developing applications 
+## Web-design ##
+### Developing applications ### 
 To develop web applications with Java script
 1.***HTML***
 2.***CSS***
