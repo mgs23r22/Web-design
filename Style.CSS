@@ -1,0 +1,74 @@
+/*Header*/
+header, #lists, #main, #nav, #tables{
+    border: 6px grey;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+em{
+    color: red;
+    
+}
+strong
+{
+    color: brown;
+}
+.t{
+    color: black;
+   
+}
+a:hover{
+    color: burlywood;
+}
+ul li:first-of-type{
+color: black;
+}
+table,td,th{
+    border: solid 3pt black;
+    border-collapse: collapse;
+    padding: 7pt;
+}
+caption{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+#Namecol{
+    background-color: brown;
+}
+#Att{
+    background-color: brown;
+}
+#Num{
+    background-color: brown;
+}
+caption{
+    color: brown;
+}
+html{
+    background-color: blanchedalmond;
+}
+body{
+    display: grid;
+    grid-template-areas: 'head lists main'
+                        
+                       'tables tables tables'
+                        ;
+                        gap: 12px;
+}  
+#tables{
+    grid-column: 1/-1;
+    
+} 
+#lists{
+    grid-row:3;
+}                        
+li:hover{
+
+   transform:scale(1.2);
+}
+li:hover{
+    transition: 2s;
+}
+h2{
+    width: 120%;
+    height: 120%;
+}
